@@ -44,4 +44,16 @@ This project aims to solve the problem of unfair treatment and scams among stude
 <img width="1042" alt="contact" src="https://user-images.githubusercontent.com/115007072/235315367-6bea1d50-4998-4592-aee5-0eb464b99412.png">
 
 
+## Reflective summary
+
+Upon completion of the project, I was able to achieve a highly promising result, a partially functional website with great potential. One of the key features of the front page of the web application is that allows users to input their name and password. Upon clicking the login button, they are redirected to their profile page. However, at present, there is no database in place to store users' information, which makes it impossible for them to have an actual profile. Nonetheless, I made it possible for users to navigate through the website as if they were able to create profiles, and I designed the website in a manner that would allow for easy integration of a database at a later stage. 
+
+However, upon further reflection, I realized that it might have been more efficient to start by implementing the database first and building pages on top of that. By starting with the database, I could have streamlined the process of building the website's pages and functionality. 
+
+Working on this project has also given me a deeper appreciation for the time and effort required to build a high-quality app. From researching best practices to meticulously testing and debugging, every step of the development process is essential to creating a successful product. I've learned that investing time upfront in research and planning can save significant time and resources down the line.
+
+Beyond the technical aspects, I've also grown as a problem solver and critical thinker. This project presented numerous challenges that required me to think creatively and outside the box to find solutions. Through trial and error, I honed my problem-solving skills and learned to be more thoughtful and intentional in my approach.
+
+
+
 
