@@ -19,3 +19,29 @@ This project aims to solve the problem of unfair treatment and scams among stude
 6. Contact Us page: Provides a platform for users to report any issues they encounter while navigating the website.
 
 7. Sample images: Integrated some sample images from Google to give users an idea of how the website would look like if they were able to upload their photos.
+
+
+## Design
+
+### Log in page 
+
+<img width="957" alt="log in" src="https://user-images.githubusercontent.com/115007072/235315208-57c5a1a9-aaf6-487b-ac5d-8aa1832d28f4.png">
+
+### Profile page
+
+<img width="1009" alt="profile" src="https://user-images.githubusercontent.com/115007072/235315234-619c1310-8ce3-4fca-8e93-cb31ac694d2b.png">
+
+### Home page
+
+<img width="1102" alt="home" src="https://user-images.githubusercontent.com/115007072/235315335-cd75af8b-23c1-45c0-9210-62bd94bd8a78.png">
+
+### About page
+
+<img width="1008" alt="about" src="https://user-images.githubusercontent.com/115007072/235315362-03ee4c70-ab1f-47a9-a0f7-cac9f45db348.png">
+
+### Contact page
+
+<img width="1042" alt="contact" src="https://user-images.githubusercontent.com/115007072/235315367-6bea1d50-4998-4592-aee5-0eb464b99412.png">
+
+
+
