@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Marketplace Connects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overwiev 
 
-## Available Scripts
+This project aims to solve the problem of unfair treatment and scams among students, especially those studying in foreign countries. The solution is to create a reliable website, supported by universities, where students can buy and sell items they need for affordable prices without the risk of being scammed. The website includes a user login and profile page, a home page with search functionality, an item details page, a connect button for contacting sellers, an about page, and a contact page.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. User login and profile page: Users can sign up using their student email accounts and enter their name and password to access their profile page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Home page with search functionality: The website's home page displays the posted items with their photos, and users can search for specific items of interest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Item details page: Users can click on the item photos to view them in a larger size, giving them access to other angles of the product that the person has posted.
 
-### `npm test`
+4. Connect with other users: Once a user has found the desired item, they can click the "connect" button, which opens up a new window that directly sends an email to the person who posted it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. About Us page: Users can comprehend the website's mission and understand its purpose.
 
-### `npm run build`
+6. Contact Us page: Provides a platform for users to report any issues they encounter while navigating the website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. Sample images: Integrated some sample images from Google to give users an idea of how the website would look like if they were able to upload their photos.
