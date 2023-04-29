@@ -1,0 +1,30 @@
+
+/* Styles for the paragraphs */
+p {
+  font-size: 20px;
+  margin: 0 auto 20px;
+  
+}
+.centered {
+  font-size: 20px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+/* Styles for the headings */
+h1, h2 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+/* Styles for the paragraphs */
+p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* Style for the body */
+body {
+  margin-left: 2cm;
+  margin-right: 2cm;
+}

@@ -1,0 +1,166 @@
+
+/* This is the "Home" page of my web application that allowes user to see the photos of the items and search for them */
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header input[type="text"] {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+/* GAP AND ORDER OF PHOTOS */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);;
+  grid-gap: 22px;
+  margin-top: 22px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+/* SIZE OF PHOTOS nis*/ 
+.item:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+/* SIZE OF PHOTOS */
+.item img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+/* DESCRIPTION */
+.item .item-details {
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+/* nis*/
+.item h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+/* nis*/
+.item p {
+  
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* BIG PHOTO nis*/
+.modal-overlay {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.modal {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+ .modal img {
+  
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+.enlarged-img-modal {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.8);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+  padding-top: 1cm;
+}
+
+.enlarged-img-modal img {
+  
+  max-width: 50%;
+  max-height: 50vh;
+  margin-bottom: 24px;
+  position: relative;
+  top: 5cm;
+ 
+}
+
+.enlarged-img-modal .extra-photos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1cm;
+ 
+}
+
+.enlarged-img-modal .extra-photos img {
+  max-width: 70%;
+  max-height: 70vh;
+  margin-bottom: 24px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+   
+}

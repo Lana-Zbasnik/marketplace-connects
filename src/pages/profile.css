@@ -1,0 +1,49 @@
+
+
+.profile-wrapper {
+  background-color: white;
+  padding: 16px;
+  max-width: 1000px; /* set the maximum width of the white block */
+  margin: 0 auto; /* center the white block horizontally */
+  margin-top: 100px;
+  margin-bottom: 600px;
+  height: 300px;
+}
+
+
+
+
+.profile-picture {
+    width: 200px; /* Set desired size for circular profile picture */
+    height: 200px; /* Set desired size for circular profile picture */
+    border-radius: 100%; /* Create circular shape */
+    overflow: hidden; /* Hide overflow content outside the circle */
+    position: absolute;
+    top: 4.5cm;
+    right: 8.5cm;
+  }
+  
+  .profile-picture img {
+    width: 100%; /* Ensure image covers the entire circular div */
+    height: 100%; /* Ensure image covers the entire circular div */
+    object-fit: cover; /* Maintain aspect ratio and cover entire div */
+  }
+  .profile-container {
+    
+    margin-left: 14cm; /* Adjust the value to move the text to the right */
+    
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .item-details {
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+  }

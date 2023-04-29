@@ -1,0 +1,13 @@
+.copyright { 
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.center {
+    max-width: 1300px;
+    margin: 0 auto;
+    
+  }
